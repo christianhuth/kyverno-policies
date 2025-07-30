@@ -1,7 +1,7 @@
 name: argo-cd-cluster-secret-generation-from-capi
 version: 1.0.0
 displayName: Argo CD Cluster Secret Generation From CAPI
-createdAt: "2023-04-10T00:56:03.000Z"
+createdAt: "2025-07-30T12:30:03.000Z"
 description: >-
   This policy generates and synchronizes Argo CD cluster secrets from cluster.x-k8s.io/v1beta1/Cluster resources and their corresponding CAPI secrets.
 install: |-
