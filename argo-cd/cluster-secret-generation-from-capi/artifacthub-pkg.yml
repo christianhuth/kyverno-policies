@@ -17,4 +17,3 @@ annotations:
   kyverno/category: "Argo CD"
   kyverno/kubernetesVersion: "1.23"
   kyverno/subject: "Secret"
-digest: 955247857bea3c8e70733e8dc214406319f08ded53700ba42a8bc59dfcf94aa5
