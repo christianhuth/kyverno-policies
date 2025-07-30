@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Community Kyverno Policies
+    url: https://github.com/kyverno/policies
+    about: Make sure your requested Policy is not present there already.
