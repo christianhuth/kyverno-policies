@@ -1,9 +1,14 @@
-name: argo-cd-cluster-secret-generation-from-capi
-version: 1.0.1
-displayName: Argo CD Cluster Secret Generation From CAPI
+---
+annotations:
+  kyverno/category: "Argo CD"
+  kyverno/kubernetesVersion: "1.23"
+  kyverno/subject: "Secret"
+category: "integration-delivery"
 createdAt: "2025-07-30T12:30:03.000Z"
+displayName: "Argo CD Cluster Secret Generation From CAPI"
 description: >-
   This policy generates and synchronizes Argo CD cluster secrets from cluster.x-k8s.io/v1beta1/Cluster resources and their corresponding CAPI secrets.
+homeURL: https://github.com/christianhuth/kyverno-policies
 install: |-
   ```shell
   kubectl apply -f https://raw.githubusercontent.com/christianhuth/kyverno-policies/main/argo-cd/cluster-secret-generation-from-capi/cluster-secret-generation-from-capi.yaml
@@ -11,9 +16,13 @@ install: |-
 keywords:
   - kyverno
   - argo cd
+links:
+  - name: Support
+    url: https://github.com/christianhuth/kyverno-policies/issues
+maintainers: # (optional)
+  - name: christianhuth
+    email: christian@knell.it
+name: argo-cd-cluster-secret-generation-from-capi
 readme: |
  This policy generates and synchronizes Argo CD cluster secrets from cluster.x-k8s.io/v1beta1/Cluster resources and their corresponding CAPI secrets.
-annotations:
-  kyverno/category: "Argo CD"
-  kyverno/kubernetesVersion: "1.23"
-  kyverno/subject: "Secret"
+version: 1.0.1
