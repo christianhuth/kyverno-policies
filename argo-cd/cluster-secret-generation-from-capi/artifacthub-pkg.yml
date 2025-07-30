@@ -1,5 +1,5 @@
 name: argo-cd-cluster-secret-generation-from-capi
-version: 1.0.0
+version: 1.0.1
 displayName: Argo CD Cluster Secret Generation From CAPI
 createdAt: "2025-07-30T12:30:03.000Z"
 description: >-
